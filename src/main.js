@@ -17,7 +17,7 @@ import HotelHome from './pages/HotelHome.vue'
 
 const routes = [
     {
-        path: '/',
+        path: '/hotel/HotelHome',
         name: 'HotelHome',
         component: HotelHome,
     },
@@ -32,7 +32,3 @@ createApp(App)
     // .component('font-awesome-icon', FontAwesomeIcon)
     .use(router).use(Quasar, { plugins: {} })
     .mount("#app");
-
-// createApp(App).use(Quasar, {
-//     plugins: {},
-//   }).mount('#app')
