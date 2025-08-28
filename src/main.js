@@ -17,7 +17,7 @@ import HotelHome from './pages/HotelHome.vue'
 
 const routes = [
     {
-        path: '/hotel/HotelHome',
+        path: '/hotel',
         name: 'HotelHome',
         component: HotelHome,
     },
